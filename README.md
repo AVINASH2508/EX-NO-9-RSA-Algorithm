@@ -1,5 +1,3 @@
-# EX-NO-9-RSA-Algorithm
-
 ## AIM:
 To Implement RSA Encryption Algorithm in Cryptography
 
@@ -36,8 +34,8 @@ Step 5: **Security Foundation
 The security of RSA relies on the difficulty of factoring large numbers; thus, choosing sufficiently large prime numbers for \( p \) and \( q \) is crucial for security.
 
 ## Program:
-
- #include <stdio.h>
+~~~
+#include <stdio.h>
 #include <math.h>
 int gcd(int a, int b) {
     while (b != 0) {
@@ -111,11 +109,13 @@ int main() {
     
     return 0;
 }
-
-
+~~~
 
 ## Output:
-<img width="810" height="390" alt="Screenshot 2025-09-26 132117" src="https://github.com/user-attachments/assets/b99bbf8d-41fe-42fc-a9e1-de1d064b2181" />
+
+<img width="1885" height="905" alt="image" src="https://github.com/user-attachments/assets/7fda8659-4924-44cc-ae35-94cf92dd5a75" />
+<img width="949" height="694" alt="image" src="https://github.com/user-attachments/assets/f5bdf200-e2b1-433d-bf14-9cc5d3c1e950" />
+
 
 ## Result:
  The program is executed successfully.
